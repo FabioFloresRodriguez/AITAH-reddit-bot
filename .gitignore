@@ -1,0 +1,8 @@
+#ignore pycache directory
+__pycache__/
+
+#ignore bot directory
+bot/
+
+#ignore praw.ini
+praw.ini
