@@ -7,16 +7,11 @@ from original_title import Original_Title
 
 reddit = praw.Reddit("bot1")
 
-docx_path = Path("AITAH stories.docx")
+docx_path = Path(f"Weekly AITAH stories/{str(date.today())} AITAH stories.docx")
 
-if docx_path.is_file():
-    doc=docx.Document(docx_path)
-    doc.add_page_break()
-    doc.add_heading(str(date.today()),0)
-else:
-    doc = docx.Document()
-    doc.save(docx_path)
-    doc.add_heading(str(date.today()),0) 
+doc = docx.Document()
+doc.save(docx_path)
+doc.add_heading(str(date.today()),0) 
 
 subreddit = reddit.subreddit("AITAH")
 for submission in subreddit.hot(limit=10):
