@@ -4,5 +4,8 @@ __pycache__/
 #ignore bot directory
 bot/
 
+#ignore weekly stories directory
+Weekly AITAH stories/
+
 #ignore praw.ini
 praw.ini
