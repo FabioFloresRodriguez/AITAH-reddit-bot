@@ -46,9 +46,9 @@ Some things that are mentioned in the article but I want to reiterate.
 https://support.reddithelp.com/hc/en-us/articles/16160319875092-Reddit-Data-API-Wiki
 
 # Usage
-Once everything is installed and set up, you can just run it manually in whatever app you wish, I used VS Code. 
+Once everything is installed and set up, you can just run it manually in whatever code editor you use. 
 
-However, if you wish to automate it, the link where it led you to create a Reddit App is actually a series that teaches you how to create a linux VM where you can automate it. There are two caveats with the tutorial, 
+If you wish to automate it, the link where it led you to create a Reddit App is actually a series that includes a tutorial on how to create a linux virtual environment and how you can automate it inside the VM. However, there are two caveats with the tutorial, 
 1. The tutorial is old and uses precise32, which is outdated. What I do is substitute precise32 for "hashicorp/bionic64". 
 2. It uses python 2.7 as the default, so you have to install python3 and pip3 and set those as the default of the virtual environment.
 
