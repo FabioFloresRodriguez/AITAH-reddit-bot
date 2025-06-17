@@ -5,8 +5,7 @@ __pycache__/
 bot/
 
 #ignore existing weekly stories files
-Weekly AITAH stories/2025-06-16 AITAH stories.docx
-Weekly AITAH stories/2025-06-17 AITAH stories.docx
+Weekly AITAH stories/
 
 #ignore praw.ini
 praw.ini
