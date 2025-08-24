@@ -21,7 +21,7 @@ Also, make another directory inside the directory named "Weekly AITAH stories". 
 To obtain everythin in the repository, open a terminal and input 
 
 ```bash
-git clone https://github.com/Faterbino/AITAH-reddit-bot.git
+git clone https://github.com/FabioFloresRodriguez/AITAH-reddit-bot.git
 ```
 
 ## Installing packages
